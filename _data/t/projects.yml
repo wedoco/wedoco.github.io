@@ -1,0 +1,50 @@
+#Projects/Portfilio Translations
+initial-filter: "*"
+filters:
+  - data-filter: "all"
+    text:
+      en: All
+      es: Todos
+  - data-filter: "open-source"
+    text:
+      en: Open Source
+      es: Código Abierto
+  - data-filter: "research"
+    text:
+      en: Research 
+      es: Investigación
+  - data-filter: "buildings"
+    text:
+      en: Buildings
+      es: Edificios
+  - data-filter: "ongoing"
+    text:
+      en: Ongoing
+      es: En curso 
+  - data-filter: "finished"
+    text:
+      en: Finished
+      es: Acabados 
+
+list:
+  - title:
+      en: IBPSA Project 1
+      es: IBPSA Project 1
+    description:
+      en: BIM/GIS and Modelica Framework for building and community energy system design and operation
+      es: Estructura de trabajo BIM/GIS y Modelica para diseño y operación de edificios y comunidades
+    url: https://ibpsa.github.io/project1/
+    filters: open-source research buildings finished
+
+  - title:
+      en: The Building Optimization Testing Framework (BOPTEST)
+      es: Estructura de testeado de optimización de edificios (BOPTEST)
+      gl: Estrutura de testado de optimización de edificios (BOPTEST)
+    description:
+      en: A framework for building control performance benchmarking
+      es: Estructura virtual de benchmarking para testear el desempeño de controladores en edificios
+      gl: Estrutura virtual de benchmarking para testar o desempeño de controladores en edificios
+    url: https://ibpsa.github.io/project1-boptest/
+    filters: open-source research buildings ongoing
+
+  

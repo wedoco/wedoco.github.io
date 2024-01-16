@@ -1,0 +1,53 @@
+# Personal Information
+author: 
+  name: Javier Arroyo Bastida
+  company: WEDOCO 
+  title: PhD
+  birthday: 28/10/1992
+  age: 31
+  city: Madrid
+  phone: (+34) 636671062
+  email: javier.arroyo.bastida@gmail.com 
+  twitter: ""
+  facebook: ""
+  googlescholar: https://scholar.google.com/citations?user=YamEV2UAAAAJ&hl=en
+  instagram: ""
+  researchgate: https://www.researchgate.net/profile/Javier-Arroyo
+  github: https://github.com/JavierArroyoBastida
+  linkedin: https://www.linkedin.com/in/javier-arroyo-bastida/
+
+year: "2024"
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      language: "en"
+  - scope:
+      path: "es"
+      type: "pages"
+    values:
+      layout: "default"
+      languages: es
+  - scope:
+      path: "en"
+      type: "pages"
+    values:
+      layout: "default"
+      languages: en
+
+languages:
+  - code: "en"
+    name: "English"
+    path: "/en"
+  - code: "es"
+    name: "Español"
+    path: "/es"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md

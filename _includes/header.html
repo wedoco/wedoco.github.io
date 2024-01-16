@@ -1,0 +1,95 @@
+  <!-- ======= Header ======= -->
+  <header id="header">
+
+    <div class="container">
+
+      <h1><a href="">{{ site.author.company }}</a></h1>
+      <h2 style="color:#fff">{{ site.data.t.header.i-am[page.lang] }} 
+        <span id="typing" class="typing" style="color:#A8DADC" my-array='{{ site.data.t.header.skills-array[page.lang] }}'></span>
+      </h2>
+      
+     
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="nav-item"><a class="nav-link active" href="#header">{{ site.data.t.header.home[page.lang] }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">{{ site.data.t.header.about[page.lang] }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">{{ site.data.t.header.services[page.lang] }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">{{ site.data.t.header.projects[page.lang] }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="#open-source">{{ site.data.t.header.open-source[page.lang] }}</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#resume">{{ site.data.t.header.resume[page.lang] }}</a></li> -->
+          <!-- <li class="nav-item"><a class="nav-link" href="#skills">{{ site.data.t.header.skills[page.lang] }}</a></li> -->
+          
+          <li class="nav-item"><a class="nav-link" href="#contact">{{ site.data.t.header.contact[page.lang] }}</a></li>
+          <!-- Language Choosen -->
+          <li class="nav-item dropdown">
+            {% for language in site.languages %}
+            {% if page.lang == language.code %}
+            <a class="nav-link dropdown-toggle {{ site.data.t.header.icons[page.lang]}}" href="{{ language.path }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding-left: 2.5em;">      
+              {{language.name}}  
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% endif %}
+            {% endfor%}
+  
+            {% for language in site.languages %}
+            {% if page.lang != language.code %}
+            <a class="dropdown-item {{ site.data.t.header.icons[language.code]}}" href="{{ language.path }}" style="padding-left: 2.5em; margin-top: 0.5em; margin-bottom: 0.5em;">
+              {{language.name}}
+            </a> 
+            {% endif %}
+            {% endfor %}
+            </div>
+          </li>
+        </ul>
+        <i class="bx bx-menu mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="social-links">
+          
+        {% if site.author.twitter != "" %}
+        <a href="{{ site.author.twitter }}" class="twitter"><i class="bx bxl-twitter"></i></a>
+        {% endif %}
+        {% if site.author.facebook != "" %}
+        <a href="{{ site.author.facebook }}" class="facebook"><i class="bx bxl-facebook"></i></a>
+        {% endif %}
+        {% if site.author.instagram != "" %}
+        <a href="{{ site.author.instagram }}" class="instagram"><i class="bx bxl-instagram"></i></a>
+        {% endif %}
+        {% if site.author.github != "" %}
+        <a href="{{ site.author.github }}" class="github"><i class="bx bxl-github"></i></a>
+        {% endif %}
+        {% if site.author.linkedin != "" %}
+        <a href="{{ site.author.linkedin }}" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        {% endif %}
+        {% if site.author.googlescholar != "" %}
+        <a href="{{ site.author.googlescholar }}" class="googlescholar"><i class="bx icon-googlescholar2"></i></a>
+        {% endif %}
+        {% if site.author.researchgate != "" %}
+        <a href="{{ site.author.researchgate }}" class="researchgate"><i class="bx icon-researchgate2"></i></a>
+        {% endif %}
+        {% if site.author.email != "" %}
+        <a href="mailto:{{site.author.email}}" target="_blank" class="google"><i class="bx bx-mail-send"></i></a>
+        {% endif %}
+      </div>
+
+    </div>
+
+    <script>
+      function changeLanguage(language) {
+        // Update the URL to include the language code
+        
+        var url = window.location.href;
+          new_url = url.replace(/\/(en|es)\//, '/' + language + '/');
+          console.log(language)
+          console.log(url)
+          console.log(new_url)
+        if (new_url==url) {
+          window.location.href = url + language + '/'
+        } else {
+          window.location.href = new_url;
+        }  
+        
+      }
+    </script>
+  </header><!-- End Header -->
+  

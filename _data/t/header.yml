@@ -1,0 +1,38 @@
+# Menu(Navbar) translations
+home: 
+  en: Home
+  es: Principal
+about: 
+  en: About us
+  es: Sobre nosotros
+resume: 
+  en: Trajectory
+  es: Trayectoria
+services: 
+  en: Services
+  es: Servicios
+open-source:
+  en: Open-Source
+  es: Código abierto
+projects: 
+  en: Projects
+  es: Proyectos
+contact: 
+  en: Contact
+  es: Contacto
+
+#Homepage Translations
+skills-array:
+  en: "{\"array\": [\"Building and district energy simulations\",\"Optimal and predictive control\", \"Artificial intelligence and deep learning\", \"Geothermal energy\", \"Research, development and education\"]}"
+  es: "{\"array\": [\"Simulación energética de edificios y distritos\",\"Control óptimo y predictivo\", \"Inteligencia artificial y deep learning\", \"Energía geotérmica\", \"Investigación, desarrollo y educación\"]}"
+i-am:
+  en: #I'm
+  es: #Soy
+
+#Flag icons
+icons:
+  en: "fi fi-gb"
+  es: "fi fi-es"
+
+
+

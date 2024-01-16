@@ -1,0 +1,44 @@
+#Open-Source Translations
+description:
+  en: These are repositories where we contributed to the open-source development
+  es: Estos son repositorios donde contribuimos al desarrollo de código abierto 
+
+list:
+  - title:
+      en: IBPSA Modelica Library
+      es: Librería de Modelica IBPSA
+    description:
+      en: A Modelica open-source library with basic models that codify best practices for the implementation of models 
+          for building and community energy and control systems developed within IBPSA Project 1.
+      es: Librería de Modelica de código abierto con modelos básicos que establece la estandarización para la implementación de modelos
+          para edificios, comunidades y sistemas de control desarrollada dentro del IBPSA Project 1.
+    url: https://github.com/ibpsa/modelica-ibpsa
+
+  - title:
+      en: IDEAS Modelica Library
+      es: Librería de Modelica IDEAS 
+    description:
+      en: A Modelica open-source library for integrated building and district energy simulations developed at KU Leuven
+      es: Librería de Modelica de código abierto para simulaciones integradas de edificios y distritos desarrollada por la KU Leuven
+    url: https://github.com/open-ideas/IDEAS
+
+  - title:
+      en: Buildings Modelica Library
+      es: Librería de Modelica Buildings
+    description:
+      en: A Modelica open-source library with dynamic simulation models for building and district energy and control systems developed by Lawrence Berkeley National Laboratory.
+      es: Librería de Modelica de código abierto con modelos para simulación dinámica de edificios, distritos y sistemas de control desarrollada por el Laboratorio Nacional Lawrence Berkeley.
+    url: https://github.com/lbl-srg/modelica-buildings
+
+  - title:
+      en: BOPTEST
+      es: BOPTEST
+    description:
+      en: A framework for building control performance benchmarking developed within IBPSA Project 1.
+      es: Estructura virtual de benchmarking para testear el desempeño de controladores en edificios desarrollada dentro del IBPSA Project 1.
+    url: https://github.com/ibpsa/project1-boptest
+
+
+  
+
+  
