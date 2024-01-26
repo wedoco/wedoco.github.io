@@ -23,8 +23,8 @@ contact:
 
 #Homepage Translations
 skills-array:
-  en: "{\"array\": [\"Building and district energy simulations\",\"Optimal and predictive control\", \"Artificial intelligence and deep learning\", \"Geothermal energy\", \"Research, development and education\"]}"
-  es: "{\"array\": [\"Simulación energética de edificios y distritos\",\"Control óptimo y predictivo\", \"Inteligencia artificial y deep learning\", \"Energía geotérmica\", \"Investigación, desarrollo y educación\"]}"
+  en: "{\"array\": [\"Building and district energy simulations\",\"Modeling, optimization and predictive control\", \"Machine learning\", \"Research, development and education\"]}"
+  es: "{\"array\": [\"Simulación energética de edificios y distritos\",\"Modelado, optimización y control predictivo\", \"Machine learning\", \"Investigación, desarrollo y educación\"]}"
 i-am:
   en: #I'm
   es: #Soy
