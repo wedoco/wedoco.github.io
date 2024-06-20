@@ -9,12 +9,12 @@
 # General
 --------------------------------------------------------------*/
 :root {
-  --background: #ffffff;
-  --highlight:#3498db; /**#ed7d31;*/
+  --background: #eeeeee;
+  --highlight:#0000ffff; /**#ed7d31;*/
   --highlight-light: #3498db;
   --contrast-font: #000000 ;
   --inactive-font: #989898;
-  --underline: #72ad47;
+  --underline: #008000ff;
   --navbar: #000000;
 }
 body {
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 
 .dropdown-menu{
-  background-color: var(--highlight);
+  background-color: var(--highlight-light);
 }
 .dropdown-item:hover{
   color: var(--background)!important;
@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 90px;
   z-index: 9999;
   display: flex;
-  background: linear-gradient(0deg, var(--background) 0%, var(--background) 50%, var(--highlight) 100%);
+  background: linear-gradient(0deg, var(--background) 0%, var(--background) 50%, var(--highlight-light) 100%);
 }
 
 #header.header-top .social-links, #header.header-top h2 {
