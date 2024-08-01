@@ -4,39 +4,55 @@ description:
   es: Estos son repositorios donde contribuimos al desarrollo de código abierto 
 
 list:
-  - title:
-      en: IBPSA Modelica Library
-      es: Librería de Modelica IBPSA
-    description:
-      en: A Modelica open-source library with basic models that codify best practices for the implementation of models 
-          for building and community energy and control systems developed within IBPSA Project 1.
-      es: Librería de Modelica de código abierto con modelos básicos que establece la estandarización para la implementación de modelos
-          para edificios, comunidades y sistemas de control desarrollada dentro del IBPSA Project 1.
-    url: https://github.com/ibpsa/modelica-ibpsa
+  # - title:
+  #     en: IBPSA Modelica Library
+  #     es: Librería de Modelica IBPSA
+  #   description:
+  #     en: A Modelica open-source library with basic models that codify best practices for the implementation of models 
+  #         for building and community energy and control systems developed within IBPSA Project 1.
+  #     es: Librería de Modelica de código abierto con modelos básicos que establece la estandarización para la implementación de modelos
+  #         para edificios, comunidades y sistemas de control desarrollada dentro del IBPSA Project 1.
+  #   url: https://github.com/ibpsa/modelica-ibpsa
+
+  # - title:
+  #     en: IDEAS Modelica Library
+  #     es: Librería de Modelica IDEAS 
+  #   description:
+  #     en: A Modelica open-source library for integrated building and district energy simulations developed at KU Leuven
+  #     es: Librería de Modelica de código abierto para simulaciones integradas de edificios y distritos desarrollada por la KU Leuven
+  #   url: https://github.com/open-ideas/IDEAS
+
+  # - title:
+  #     en: Buildings Modelica Library
+  #     es: Librería de Modelica Buildings
+  #   description:
+  #     en: A Modelica open-source library with dynamic simulation models for building and district energy and control systems developed by Lawrence Berkeley National Laboratory.
+  #     es: Librería de Modelica de código abierto con modelos para simulación dinámica de edificios, distritos y sistemas de control desarrollada por el Laboratorio Nacional Lawrence Berkeley.
+  #   url: https://github.com/lbl-srg/modelica-buildings
 
   - title:
-      en: IDEAS Modelica Library
-      es: Librería de Modelica IDEAS 
+      en: optimo
+      es: optimo
     description:
-      en: A Modelica open-source library for integrated building and district energy simulations developed at KU Leuven
-      es: Librería de Modelica de código abierto para simulaciones integradas de edificios y distritos desarrollada por la KU Leuven
-    url: https://github.com/open-ideas/IDEAS
-
-  - title:
-      en: Buildings Modelica Library
-      es: Librería de Modelica Buildings
-    description:
-      en: A Modelica open-source library with dynamic simulation models for building and district energy and control systems developed by Lawrence Berkeley National Laboratory.
-      es: Librería de Modelica de código abierto con modelos para simulación dinámica de edificios, distritos y sistemas de control desarrollada por el Laboratorio Nacional Lawrence Berkeley.
-    url: https://github.com/lbl-srg/modelica-buildings
+      en: Repository for the optimization of Modelica models.
+      es: Repositorio para la optimización de modelos de Modélica.
+    url: https://github.com/wedoco/optimo
 
   - title:
       en: BOPTEST
       es: BOPTEST
     description:
-      en: A framework for building control performance benchmarking developed within IBPSA Project 1.
-      es: Estructura virtual de benchmarking para testear el desempeño de controladores en edificios desarrollada dentro del IBPSA Project 1.
+      en: A framework for the evaluation and benchmarking of controllers for building energy management.
+      es: Plataforma para la evaluación y comparativa de controladores de sistemas energéticos en edificios.
     url: https://github.com/ibpsa/project1-boptest
+
+  - title:
+      en: BOPTEST-Gym
+      es: BOPTEST-Gym
+    description:
+      en: Development of reinforcement learning algorithms for building energy management.
+      es: Desarrollo de algoritmos de "reinforcement learning" para sistemas energéticos en edificios.
+    url: https://github.com/ibpsa/project1-boptest-gym
 
 
   
