@@ -15,6 +15,9 @@
   --contrast-font: #000000 ;
   --inactive-font: #989898;
   --underline: #008000ff;
+  --underline-alpha: rgba(0, 128, 0, 0.3);
+  --underline-light: #63eda3;
+  --underline-light-alpha: rgba(99, 237, 163, 0.3);
   --navbar: #000000;
 }
 body {
@@ -816,6 +819,7 @@ section .container {
   display: flex;
   flex-wrap: wrap;
   padding: 3px; 
+  background: var(--underline-light-alpha);
 }
 
 .portfolio .portfolio-item .container{
@@ -836,13 +840,13 @@ section .container {
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--underline-alpha);
   padding: 15px
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--underline-alpha);
   position: absolute;
   transition: all ease-in-out 0.3s;
   z-index: 2;
@@ -851,7 +855,7 @@ section .container {
 
 .portfolio .portfolio-wrap::after {
   content: "";
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--underline-alpha);
   position: absolute;
   bottom: 0;
   transition: all ease-in-out 0.3s;
@@ -982,7 +986,7 @@ section .container {
   line-height: 1;
   text-transform: uppercase;
   color: var(--contrast-font);
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--underline-light-alpha);
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
@@ -1009,6 +1013,7 @@ section .container {
   display: flex;
   flex-wrap: wrap;
   padding: 3px; 
+  background: var(--underline-light-alpha);
 }
 
 .open-source .open-source-item .container{
@@ -1029,13 +1034,13 @@ section .container {
 .open-source .open-source-wrap {
   transition: 0.3s;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--underline-alpha);
   padding: 15px
 }
 
 .open-source .open-source-wrap::before {
   content: "";
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--underline-alpha);
   position: absolute;
   transition: all ease-in-out 0.3s;
   z-index: 2;
@@ -1044,7 +1049,7 @@ section .container {
 
 .open-source .open-source-wrap::after {
   content: "";
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--underline-alpha);
   position: absolute;
   bottom: 0;
   transition: all ease-in-out 0.3s;
@@ -1125,7 +1130,7 @@ section .container {
 }
 
 .open-source .open-source-item .container .open-source-links a:hover {
-  color: #63eda3;
+  color: var(--underline-light);
 }
 
 .open-source .open-source-item .container:hover::before {
