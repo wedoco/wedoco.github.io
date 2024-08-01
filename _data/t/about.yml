@@ -2,13 +2,11 @@
 
 about:
   en: is a tech company founded in 2024. <br><br>
-      Our <b>mission</b> is to boost efficiency in energy systems. <br><br>
+      Our <b>mission</b> is to boost efficiency in energy systems through modeling, optimization and predictive control. <br><br>
       Our <b>vision</b> is a sustainable energy society. <br><br>
-      For that we use modeling, optimization and predictive control. 
   es: es una compañía tecnológica fundada en 2024. <br><br>
-      Nuestra <b>misión</b> es incrementar la eficiencia de sistemas energéticos. <br><br>
+      Nuestra <b>misión</b> es incrementar la eficiencia de sistemas energéticos a través del modelado, optimización y control predictivo. <br><br>
       Nuestra <b>visión</b> es una sociedad energética sostenible. <br><br>
-      Para ello utilizamos modelado, optimización y control predictivo. 
 
 services:
   en: Services
@@ -30,9 +28,9 @@ services:
         en: "Development and implementation of specialized software"
         es: "Desarrollo e implementación de software especializado"
       description:
-        en: "We develop software and data science solutions tailored to integrate and optimize the operation of your building, community or system using predictive and intelligent algorithms.
+        en: "We develop software and data science solutions tailored to integrate and optimize the operation of your energy system using predictive and intelligent algorithms.
             Do you need to implement it? We help you."
-        es: "Desarrollamos soluciones de software y ciencia de datos adaptadas a optimizar la operación de tu edificio, comunidad o sistema de forma integrada usando algoritmos predictivos e inteligentes.
+        es: "Desarrollamos soluciones de software y ciencia de datos adaptadas a optimizar la operación de tu sistema energético de forma integrada usando algoritmos predictivos e inteligentes.
             ¿Necesitas implementarlo? Te ayudamos." 
     - header:
         en: "Knowledge transfer"
