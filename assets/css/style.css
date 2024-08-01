@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle {
   content: '';
   color: var(--contrast-font);
-  background: var(--highlight);
+  background: var(--underline);
   font-size: 2rem;
   cursor: pointer;
   display: none;  
@@ -284,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: var(--underline-light);
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
