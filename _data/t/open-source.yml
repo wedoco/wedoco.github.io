@@ -44,7 +44,7 @@ list:
     description:
       en: A framework for the evaluation and benchmarking of controllers for building energy management.
       es: Plataforma para la evaluación y comparativa de controladores de sistemas energéticos en edificios.
-    url: https://github.com/ibpsa/project1-boptest
+    url: https://ibpsa.github.io/project1-boptest/
 
   - title:
       en: BOPTEST-Gym
