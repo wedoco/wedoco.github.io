@@ -42,7 +42,7 @@ list:
     description:
       en: Development of BOPTEST, a framework for building control performance benchmarking. 
       es: Desarrollo de BOPTEST, una plataforma para la comparativa de controladores en edificios.
-    url: https://ibpsa.github.io/project1-boptest/
+    url: https://ibpsa.github.io/project1-boptest/ibpsa/index.html
     filters: ongoing
 
   
