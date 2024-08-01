@@ -5,18 +5,18 @@ filters:
     text:
       en: All
       es: Todos
-  - data-filter: "open-source"
-    text:
-      en: Open Source
-      es: Código Abierto
-  - data-filter: "research"
-    text:
-      en: Research 
-      es: Investigación
-  - data-filter: "buildings"
-    text:
-      en: Buildings
-      es: Edificios
+  # - data-filter: "open-source"
+  #   text:
+  #     en: Open Source
+  #     es: Código Abierto
+  # - data-filter: "research"
+  #   text:
+  #     en: Research 
+  #     es: Investigación
+  # - data-filter: "buildings"
+  #   text:
+  #     en: Buildings
+  #     es: Edificios
   - data-filter: "ongoing"
     text:
       en: Ongoing
@@ -31,20 +31,18 @@ list:
       en: IBPSA Project 1
       es: IBPSA Project 1
     description:
-      en: BIM/GIS and Modelica Framework for building and community energy system design and operation
-      es: Estructura de trabajo BIM/GIS y Modelica para diseño y operación de edificios y comunidades
+      en: Modelica libraries for the design and operation of building and district energy systems.
+      es: Librerías de Modelica para diseño y operación de sistemas energéticos en edificios y distritos.
     url: https://ibpsa.github.io/project1/
-    filters: open-source research buildings finished
+    filters: finished
 
   - title:
-      en: The Building Optimization Testing Framework (BOPTEST)
-      es: Estructura de testeado de optimización de edificios (BOPTEST)
-      gl: Estrutura de testado de optimización de edificios (BOPTEST)
+      en: IBPSA Project 2
+      es: IBPSA Project 2
     description:
-      en: A framework for building control performance benchmarking
-      es: Estructura virtual de benchmarking para testear el desempeño de controladores en edificios
-      gl: Estrutura virtual de benchmarking para testar o desempeño de controladores en edificios
+      en: Development of BOPTEST, a framework for building control performance benchmarking. 
+      es: Desarrollo de BOPTEST, una plataforma para la comparativa de controladores en edificios.
     url: https://ibpsa.github.io/project1-boptest/
-    filters: open-source research buildings ongoing
+    filters: ongoing
 
   
