@@ -47,8 +47,8 @@ interests:
   
   list:
     - text:
-        en: Building and district thermal energy simulations and design
-        es: Simulación energética y diseño de edificios y distritos
+        en: Simulation and sizing of energy systems
+        es: Simulación energética y diseño de sistemas energéticos
       icon: ri-community-line
     - text:
         en: Mathematical modeling of physical systems
