@@ -196,14 +196,14 @@
     return color
   }
 
-  let portfolioItems =  select('.portfolio-item',true);
-  portfolioItems.forEach(function(item,i){
-    item.setAttribute("style", "background: " + generateRandomColor(360,0,100,30,40,20))
-  })
-  let openSourceItems =  select('.open-source-item',true);
-  openSourceItems.forEach(function(item,i){
-    item.setAttribute("style", "background: " + generateRandomColor(360,0,100,30,40,20))
-  })
+  // let portfolioItems =  select('.portfolio-item',true);
+  // portfolioItems.forEach(function(item,i){
+  //   item.setAttribute("style", "background: " + generateRandomColor(360,0,100,30,40,20))
+  // })
+  // let openSourceItems =  select('.open-source-item',true);
+  // openSourceItems.forEach(function(item,i){
+  //   item.setAttribute("style", "background: " + generateRandomColor(360,0,100,30,40,20))
+  // })
   let interestsIcons = select('.interest-icon',true);
   interestsIcons.forEach(function(item,i){
     item.setAttribute("style", "color: " + generateRandomColor(360,0,100,80,80,40))
