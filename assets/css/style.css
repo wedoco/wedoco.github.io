@@ -21,7 +21,7 @@
   --navbar: #000000;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", Calibre, sans-serif; /* Updated fallback */
   color: var(--contrast-font);
   background: var(--background); 
 }
@@ -53,7 +53,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", Calibre, sans-serif; /* Updated fallback */
 }
 
 /*--------------------------------------------------------------
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", Calibre, sans-serif; /* Updated fallback */
 }
 
 #header h1 a, #header h1 a:hover {
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", Calibre, sans-serif; /* Updated fallback */
   font-size: 16px;
   font-weight: 400;
   color: var(--navbar);
