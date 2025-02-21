@@ -820,6 +820,8 @@ section .container {
   flex-wrap: wrap;
   padding: 3px; 
   background: var(--underline-light-alpha);
+  margin-bottom: 1rem; /* Added separation between cards */
+  border: 2px solid #ffffff; /* add contrasting border */
 }
 
 .portfolio .portfolio-item .container{
@@ -1014,6 +1016,8 @@ section .container {
   flex-wrap: wrap;
   padding: 3px; 
   background: var(--underline-light-alpha);
+  margin-bottom: 1rem; /* Added separation between cards */
+  border: 2px solid #ffffff; /* add contrasting border */
 }
 
 .open-source .open-source-item .container{
