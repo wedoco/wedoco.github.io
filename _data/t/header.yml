@@ -17,8 +17,8 @@ contact:
 
 #Homepage Translations
 skills-array:
-  en: "{\"array\": [\"Simulation and optimization of energy systems\",\"Modeling, optimization and predictive control\", \"Machine learning\", \"Research, development and education\"]}"
-  es: "{\"array\": [\"Simulación y optimización de sistemas energéticos\",\"Modelado, optimización y control predictivo\", \"Machine learning\", \"Investigación, desarrollo y educación\"]}"
+  en: "{\"array\": [\"Modeling and optimization\", \"Machine learning\", \"Research and development\"]}"
+  es: "{\"array\": [\"Modelado y optimización\", \"Machine learning\", \"Investigación y desarrollo\"]}"
 i-am:
   en: #I'm
   es: #Soy
