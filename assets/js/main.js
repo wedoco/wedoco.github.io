@@ -109,6 +109,22 @@
   }, true)
 
   /**
+   * Hide home-banner when navigating away from the home section
+   */
+  const homeBanner = document.getElementById('home-banner');
+  const navLinks = document.querySelectorAll('#navbar .nav-link');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', function() {
+      if (this.getAttribute('href') !== '#header' && homeBanner) {
+        homeBanner.style.display = 'none';
+      } else if (homeBanner) {
+        homeBanner.style.display = 'block';
+      }
+    });
+  });
+
+  /**
    * Activate/show sections on load with hash links
    */
   window.addEventListener('load', () => {
