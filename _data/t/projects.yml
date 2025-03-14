@@ -45,4 +45,28 @@ list:
     url: https://ibpsa.github.io/project1-boptest/ibpsa/index.html
     filters: ongoing
 
+
+  - title:
+      en: optimo
+      es: optimo
+    description:
+      en: Repository for the optimization of Modelica models.
+      es: Repositorio para la optimización de modelos de Modélica.
+    url: https://github.com/wedoco/optimo
+
+  - title:
+      en: BOPTEST
+      es: BOPTEST
+    description:
+      en: A framework for the evaluation and benchmarking of controllers for building energy management.
+      es: Plataforma para la evaluación y comparativa de controladores de sistemas energéticos en edificios.
+    url: https://ibpsa.github.io/project1-boptest/
+
+  - title:
+      en: BOPTEST-Gym
+      es: BOPTEST-Gym
+    description:
+      en: Development of reinforcement learning algorithms for building energy management.
+      es: Desarrollo de algoritmos de "reinforcement learning" para sistemas energéticos en edificios.
+    url: https://github.com/ibpsa/project1-boptest-gym
   
