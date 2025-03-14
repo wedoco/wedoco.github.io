@@ -11,13 +11,7 @@
         <div class="icon-box">
           <h4 class="service-title" style="font-family:sans-serif">{{service.header[page.lang]}}</h4>
           <div class="icon">
-            {% if service.header[page.lang] == "Consultancy" or service.header[page.lang] == "Consultoría" %}
-              <i class="bx bx-briefcase"></i>
-            {% elsif service.header[page.lang] == "Research" or service.header[page.lang] == "Investigación" %}
-              <i class="bx bx-brain"></i>
-            {% elsif service.header[page.lang] == "Teaching" or service.header[page.lang] == "Formación" %}
-              <i class="bx bx-book"></i>
-            {% endif %}
+            <i class="{{ service.icon }}"></i>
           </div>
           <p>{{service.description[page.lang]}}</p>
         </div>

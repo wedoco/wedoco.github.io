@@ -12,6 +12,7 @@ services:
         es: "Desarrollamos modelos para simulación y optimización de sistemas energéticos usando el estándar Modelica Language. 
              Combinamos física con datos para asegurar que nuestros modelos sean fiables y precisos. 
              Nos comprometemos a entregar modelos de alta fidelidad que sean fácilmente accesibles y extensamente documentados."
+      icon: "bx bx-briefcase"
     - header:
         en: "Research"
         es: "Investigación"
@@ -20,6 +21,7 @@ services:
              Through innovation we deliver cutting-edge technology for our clients."
         es: "Estamos involucrados en múltiples proyectos de investigación en colaboración con otros socios internacionales y universidades. 
              A través de la innovación entregamos tecnología de vanguardia para nuestros clientes."
+      icon: "bx bx-brain"
     - header:
         en: "Teaching"
         es: "Formación"
@@ -28,3 +30,4 @@ services:
              We provide tailored teaching on Modelica, software development, BOPTEST, and advanced controls like model predictive control and reinforcement learning."
         es: "Nos encanta aprender. 
             Ofrecemos formación personalizada en Modelica, desarrollo de software, BOPTEST y controles avanzados como control predictivo con modelos y reinforcement learning."
+      icon: "bx bx-book"
