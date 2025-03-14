@@ -1,0 +1,42 @@
+
+interests:
+  en: Services
+  es: Servicios
+  
+  list:
+    - text:
+        en: Simulation and sizing of energy systems
+        es: Simulación energética y diseño de sistemas energéticos
+      icon: ri-community-line
+    - text:
+        en: Mathematical modeling of physical systems
+        es: Modelado matemático de sistemas físicos
+      icon: bx bxs-cube 
+    - text:
+        en: Model Predictive Control
+        es: Control predictivo por modelo
+      icon: bx bx-brain
+    - text:
+        en: Artifical intelligente and deep learning
+        es: Inteligencia artificial y deep learning
+      icon: bx bx-git-branch
+    - text:
+        en: Optimization
+        es: Optimización
+      icon: ri-list-settings-line
+    - text:
+        en: Data science, handling and processing
+        es: Ciencia, manejo y procesado de datos 
+      icon: bx bx-data
+    - text:
+        en: Software development
+        es: Desarrollo de software
+      icon: ri-computer-line
+    - text:
+        en: Education, research and open-source
+        es: Educación, investigación y código abierto
+      icon: bx bx-book-open
+    - text:
+        en: Consulting and advice
+        es: Consultoría y asesoría
+      icon: bx bx-message-dots

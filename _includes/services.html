@@ -24,12 +24,12 @@
   <div class="interests container" style="padding-top:5ex;">
 
     <div class="section-title">
-      <h2>{{ site.data.t.about.interests[page.lang] }}</h2>
+      <h2>{{ site.data.t.interests.interests[page.lang] }}</h2>
     </div>
 
     <div class="row">
       
-      {% for interest in site.data.t.about.interests.list %}
+      {% for interest in site.data.t.interests.interests.list %}
       <div class="col-lg-4 col-md-4 mt-4 interest-item">
         <div class="bx icon-box">
           <i class="interest-icon {{ interest.icon }}"></i>

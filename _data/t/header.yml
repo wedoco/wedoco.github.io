@@ -5,6 +5,9 @@ home:
 about: 
   en: About us
   es: Sobre nosotros
+services:
+  en: Services
+  es: Servicios
 projects: 
   en: Projects
   es: Proyectos
