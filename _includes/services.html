@@ -9,10 +9,10 @@
       {% for service in site.data.t.services.services.list %}
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
         <div class="icon-box">
-          <h4 class="service-title" style="font-family:sans-serif">{{service.header[page.lang]}}</h4>
-          <div class="icon">
-            <i class="{{ service.icon }}"></i>
-          </div>
+          <h4 class="service-title" style="font-family:sans-serif">
+            <i class="{{ service.icon }}" style="font-size: 1.5em; margin-right: 10px;"></i>
+            {{service.header[page.lang]}}
+          </h4>
           <p>{{service.description[page.lang]}}</p>
         </div>
       </div>

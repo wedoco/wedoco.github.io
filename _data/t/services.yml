@@ -6,11 +6,9 @@ services:
         en: "Consultancy"
         es: "Consultoría"
       description:
-        en: "We develop models for simulation and optimization of energy systems using the Modelica Language standard. 
-             We combine physics with data to ensure that our models are reliable and accurate. 
+        en: "We develop physics-based models calibrated with data for simulation and optimization of energy systems. 
              We are committed to delivering high-fidelity models that are easily accessible and extensively documented."
-        es: "Desarrollamos modelos para simulación y optimización de sistemas energéticos usando el estándar Modelica Language. 
-             Combinamos física con datos para asegurar que nuestros modelos sean fiables y precisos. 
+        es: "Desarrollamos modelos basados en la física calibrados con datos para simulación y optimización de sistemas energéticos. 
              Nos comprometemos a entregar modelos de alta fidelidad que sean fácilmente accesibles y extensamente documentados."
       icon: "bx bx-briefcase"
     - header:
