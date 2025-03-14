@@ -3,30 +3,28 @@ services:
   es: Servicios 
   list:
     - header:
-        en: "Integration of building energy systems"
-        es: "Integración de los sistemas energéticos en la edificación"
+        en: "Consultancy"
+        es: "Consultoría"
       description:
-        en: "We model and simulate of your building or community, integrating all its components.
-            Once modeled, we can test multiple designs and control logics, from the classic ones until the predictive and intelligent ones.
-            Based on the results, we will withdraw many conclusions to optimize your building design and operation, always in an integrated way.
-            Do you need to apply these services to another kind of system? Tell us!"
-        es: "Modelamos y simulamos la instalación energética de tu edificio o comunidad, integrando todos sus componentes. 
-            Una vez modelado, se pueden testear múltiples diseños y lógicas de control, desde las clásicas hasta las predictivas e inteligentes.
-            En base a los resultados, sacaremos muchas conclusiones destinadas a optimizar el diseño y la operación de la edifición, siempre de forma integrada.
-            ¿Necesitas estos servicios en otro tipo de sistema? ¡Explícanoslo!"
+        en: "We develop models for simulation and optimization of energy systems using the Modelica Language standard. 
+             We combine physics with data to ensure that our models are reliable and accurate. 
+             We are committed to delivering high-fidelity models that are easily accessible and extensively documented."
+        es: "Desarrollamos modelos para simulación y optimización de sistemas energéticos usando el estándar Modelica Language. 
+             Combinamos física con datos para asegurar que nuestros modelos sean fiables y precisos. 
+             Nos comprometemos a entregar modelos de alta fidelidad que sean fácilmente accesibles y extensamente documentados."
     - header:
-        en: "Development and implementation of specialized software"
-        es: "Desarrollo e implementación de software especializado"
+        en: "Research"
+        es: "Investigación"
       description:
-        en: "We develop software and data science solutions tailored to integrate and optimize the operation of your energy system using predictive and intelligent algorithms.
-            Do you need to implement it? We help you."
-        es: "Desarrollamos soluciones de software y ciencia de datos adaptadas a optimizar la operación de tu sistema energético de forma integrada usando algoritmos predictivos e inteligentes.
-            ¿Necesitas implementarlo? Te ayudamos." 
+        en: "We are involved in multiple research projects in collaboration with other international partners and universities. 
+             Through innovation we deliver cutting-edge technology for our clients."
+        es: "Estamos involucrados en múltiples proyectos de investigación en colaboración con otros socios internacionales y universidades. 
+             A través de la innovación entregamos tecnología de vanguardia para nuestros clientes."
     - header:
-        en: "Knowledge transfer"
-        es: "Transferencia de conocimiento"
+        en: "Teaching"
+        es: "Formación"
       description:
-        en: "We love learning. We also realize and promote education, research, dissemination and consultancy tasks with regard to any topic related to our expertise, 
-            both in-person or remotely."
-        es: "Nos encanta aprender. También realizamos y promovemos actividades de educación, investigación, divulgación y consultoría en cualquier ámbito relacionado con nuestra especialidad, 
-            tanto presencialmente como de forma remota."
+        en: "We love learning. 
+             We provide tailored teaching on Modelica, software development, BOPTEST, and advanced controls like model predictive control and reinforcement learning."
+        es: "Nos encanta aprender. 
+            Ofrecemos formación personalizada en Modelica, desarrollo de software, BOPTEST y controles avanzados como control predictivo con modelos y reinforcement learning."
