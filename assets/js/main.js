@@ -108,9 +108,6 @@
     }
   }, true)
 
-  /**
-   * Hide home-banner when navigating away from the home section
-   */
   const homeBanner = document.getElementById('home-banner');
   const navLinks = document.querySelectorAll('#navbar .nav-link');
 

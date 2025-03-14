@@ -1432,3 +1432,32 @@ footer{
 * {
   scroll-margin-top: 100px;
 }
+
+/* Home Banner */
+.home-banner {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem 0;
+  background: linear-gradient(90deg, #000000, #0000ffff, #008000ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 992px) {
+  .home-banner {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-banner {
+    font-size: 1.5em;
+  }
+}
+
+/* Hide home-banner when navigating away from the home section */
+#header.header-top ~ .home-banner {
+  display: none;
+}
