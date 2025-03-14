@@ -1,9 +1,27 @@
 about:
-  en: helps other companies build a digital twin of their energy systems to enable predictive analysis and performance improvements. 
-      Digital twins are also used to investigate optimal design and sizing of new constructions and retrofitting. <br><br>
-      Our <b>mission</b> is to boost efficiency in energy systems through modeling, optimization and predictive control. <br><br>
-      Our <b>vision</b> is a sustainable society with smart energy systems. <br><br>
-  es: ayuda a otras empresas a construir un gemelo digital de sus sistemas energéticos para habilitar el análisis predictivo y mejoras en el rendimiento. 
-      Los gemelos digitales también son utilizados para investigar el diseño óptimo y el dimensionamiento de nuevas construcciones y reacondicionamientos. <br><br>
-      Nuestra <b>misión</b> es incrementar la eficiencia de sistemas energéticos a través del modelado, optimización y control predictivo. <br><br>
-      Nuestra <b>visión</b> es una sociedad sostenible con sistemas energéticos inteligentes. <br><br>
+  en: About
+  es: Sobre nosotros
+  list:
+    - header:
+        en: "The team"
+        es: "El equipo"
+      description:
+        en: "We are a team of engineers and scientists with a passion for energy systems. 
+             We develop digital twins to enable predictive analysis and performance improvements."
+        es: "Somos un equipo de ingenieros y científicos con pasión por los sistemas energéticos. 
+             Desarrollamos gemelos digitales para habilitar el análisis predictivo y mejoras en el rendimiento."
+      icon: "bx bx-group"
+    - header:
+        en: "Mission"
+        es: "Misión"
+      description:
+        en: "Our <b>mission</b> is to boost efficiency in energy systems through modeling, optimization and predictive control."
+        es: "Nuestra misión es incrementar la eficiencia de sistemas energéticos a través del modelado, optimización y control predictivo."
+      icon: "bx bx-target-lock"
+    - header:
+        en: "Vision"
+        es: "Visión"
+      description:
+        en: "Our <b>vision</b> is a sustainable society with smart energy systems."
+        es: "Nuestra visión es una sociedad sostenible con sistemas energéticos inteligentes."
+      icon: "bx bx-world"

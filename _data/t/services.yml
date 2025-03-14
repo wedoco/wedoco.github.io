@@ -6,9 +6,9 @@ services:
         en: "Consultancy"
         es: "Consultoría"
       description:
-        en: "We develop physics-based models calibrated with data for simulation and optimization of energy systems. 
+        en: "We develop physics-based models calibrated with data for simulation and optimization. 
              We are committed to delivering high-fidelity models that are easily accessible and extensively documented."
-        es: "Desarrollamos modelos basados en la física calibrados con datos para simulación y optimización de sistemas energéticos. 
+        es: "Desarrollamos modelos basados en la física calibrados con datos para simulación y optimización. 
              Nos comprometemos a entregar modelos de alta fidelidad que sean fácilmente accesibles y extensamente documentados."
       icon: "bx bx-briefcase"
     - header:
