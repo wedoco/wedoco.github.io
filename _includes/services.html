@@ -1,24 +1,29 @@
-
 <section id="services" class="services">
-<div class="services container" style="padding-top:5ex;">
+  <div class="container" style="padding-top:5ex;">
 
     <div class="section-title">
       <h2>{{ site.data.t.services.services[page.lang] }}</h2>
     </div>
 
-    <div class="content">
-    
-    {% for service in site.data.t.services.services.list %}
-
-    <h5 class="service-description" style="font-family:sans-serif"><i class="bx bx-right-arrow-circle"></i> {{service.header[page.lang]}}</h5>
-
-    <p>{{service.description[page.lang]}}</p>
-
-    {% endfor %}
-
+    <div class="row">
+      {% for service in site.data.t.services.services.list %}
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="icon-box">
+          <h4 class="service-title" style="font-family:sans-serif">{{service.header[page.lang]}}</h4>
+          <div class="icon">
+            {% if service.header[page.lang] == "Consultancy" or service.header[page.lang] == "Consultoría" %}
+              <i class="bx bx-briefcase"></i>
+            {% elsif service.header[page.lang] == "Research" or service.header[page.lang] == "Investigación" %}
+              <i class="bx bx-brain"></i>
+            {% elsif service.header[page.lang] == "Teaching" or service.header[page.lang] == "Formación" %}
+              <i class="bx bx-book"></i>
+            {% endif %}
+          </div>
+          <p>{{service.description[page.lang]}}</p>
+        </div>
+      </div>
+      {% endfor %}
     </div>
-    
-  </div>
 
-</div>
+  </div>
 </section>
