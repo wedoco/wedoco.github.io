@@ -1,4 +1,4 @@
-  <!-- Start Project Section -->
+<!-- Start Project Section -->
   <section id="portfolio" class="portfolio">
     <div class="container">
       
@@ -24,25 +24,14 @@
       <div class="row portfolio-container">
         
         {% for project in site.data.t.projects.list %}
-        <div class="col-12 col-lg-4 portfolio-item {{ project.filters }}">
-          
-          <div class="container">
-            
-            
-          <center><h4>{{ project.title[page.lang] }}</h4></center>
-          <div class="portfolio-wrap">
-            <p align="center">{{ project.description[page.lang] }}</p>
-            <!-- <img src="../assets/img/project/twitteranalysis.jpg" class="img-fluid" alt=""> -->
-          </div> 
-          
-          <div class="portfolio-info">
-            <div class="portfolio-links">
-                <a href="{{project.url}}" target="_blank" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class='bx bx-link bx-tada bx-rotate-90' ></i></a>
+        <a href="{{ project.url }}" class="col-12 col-lg-4 portfolio-item {{ project.filters }}" target="_blank">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{ project.title[page.lang] }}</h5>
+              <p class="card-text">{{ project.description[page.lang] }}</p>
             </div>
-          </div> 
-
-          </div>  
-        </div> 
+          </div>
+        </a>
         {% endfor %}
 
       </div>

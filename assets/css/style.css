@@ -819,7 +819,8 @@ section .container {
   display: flex;
   flex-wrap: wrap;
   padding: 3px; 
-  background: var(--underline-light-alpha);
+  background: none;
+  box-shadow: none;
   margin-bottom: 1rem; /* Added separation between cards */
   border: 2px solid #ffffff; /* add contrasting border */
 }
@@ -963,7 +964,66 @@ section .container {
   right: 0px;
 }
 
+/* Portfolio Section */
+.portfolio .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
 
+.portfolio .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio .card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.portfolio .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.portfolio .card-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.portfolio .btn {
+  background-color: var(--highlight);
+  color: var(--background);
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio .btn:hover {
+  background-color: var(--highlight-light);
+  color: var(--background);
+}
+
+/* Remove blue rectangle (focus outline) */
+.portfolio .portfolio-item:focus {
+  outline: none;
+}
+
+/* Ensure the entire card is clickable */
+.portfolio .portfolio-item {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
 
 /*--------------------------------------------------------------
 # Open-source
